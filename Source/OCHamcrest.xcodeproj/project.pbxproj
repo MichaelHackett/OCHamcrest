@@ -111,6 +111,58 @@
 		0876039213440E28001B439B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087601EA13440807001B439B /* Foundation.framework */; };
 		088FB0AB136A6DEA00C191E1 /* StringContainsInOrderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 088FB0AA136A6DEA00C191E1 /* StringContainsInOrderTest.m */; };
 		088FB0AC136A6DEA00C191E1 /* StringContainsInOrderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 088FB0AA136A6DEA00C191E1 /* StringContainsInOrderTest.m */; };
+		4CF705801A17D8BA00C187A2 /* OCHamcrest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB33356A6185FA4F1B6E240F /* OCHamcrest.h */; };
+		4CF705811A17D8BA00C187A2 /* HCAssertThat.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333792C123FE94F1A3D447 /* HCAssertThat.h */; };
+		4CF705821A17D8BA00C187A2 /* HCBaseDescription.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333D869F9ECB46825CA726 /* HCBaseDescription.h */; };
+		4CF705831A17D8BA00C187A2 /* HCBaseMatcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333E53F31A4853CD1B9548 /* HCBaseMatcher.h */; };
+		4CF705841A17D8BA00C187A2 /* HCDescription.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333D2D401EA09BE78BF7E9 /* HCDescription.h */; };
+		4CF705851A17D8BA00C187A2 /* HCMatcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3334F31A5AB57A69174ECB /* HCMatcher.h */; };
+		4CF705861A17D8BA00C187A2 /* HCSelfDescribing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333B7F19A5645CF7FC3E7E /* HCSelfDescribing.h */; };
+		4CF705871A17D8BA00C187A2 /* HCStringDescription.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333215A6C1406E57ED34C4 /* HCStringDescription.h */; };
+		4CF705881A17D8BA00C187A2 /* HCTestFailure.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333930FE07807045EEE866 /* HCTestFailure.h */; };
+		4CF705891A17D8BA00C187A2 /* HCTestFailureHandler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3337F8ADEA5FCE59018962 /* HCTestFailureHandler.h */; };
+		4CF7058A1A17D8BA00C187A2 /* HCTestFailureHandlerChain.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3336D2152CF1F88C8FF743 /* HCTestFailureHandlerChain.h */; };
+		4CF7058B1A17D8BA00C187A2 /* HCCollect.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333C7DFDB2404398E9E6C5 /* HCCollect.h */; };
+		4CF7058C1A17D8BA00C187A2 /* HCInvocationMatcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333D00EB0E21D420A7B22B /* HCInvocationMatcher.h */; };
+		4CF7058D1A17D8BA00C187A2 /* HCRequireNonNilObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3331127524965C9BCAD83A /* HCRequireNonNilObject.h */; };
+		4CF7058E1A17D8BA00C187A2 /* HCWrapInMatcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333D5C9BD053542A0530EB /* HCWrapInMatcher.h */; };
+		4CF7058F1A17D8BA00C187A2 /* HCHasCount.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3331C8CBB96396DDA74467 /* HCHasCount.h */; };
+		4CF705901A17D8BA00C187A2 /* HCIsCollectionContaining.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3331A34E31C49FE230D9BE /* HCIsCollectionContaining.h */; };
+		4CF705911A17D8BA00C187A2 /* HCIsCollectionContainingInAnyOrder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3332CD4593BA0B619AE30C /* HCIsCollectionContainingInAnyOrder.h */; };
+		4CF705921A17D8BA00C187A2 /* HCIsCollectionContainingInOrder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB33312A13BF3686BE841AD7 /* HCIsCollectionContainingInOrder.h */; };
+		4CF705931A17D8BA00C187A2 /* HCIsCollectionOnlyContaining.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333BC37F9AB8BFAB79AE16 /* HCIsCollectionOnlyContaining.h */; };
+		4CF705941A17D8BA00C187A2 /* HCIsDictionaryContaining.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333FDE3455183AB9302310 /* HCIsDictionaryContaining.h */; };
+		4CF705951A17D8BA00C187A2 /* HCIsDictionaryContainingEntries.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333F8E4CF5AD791C99B6FA /* HCIsDictionaryContainingEntries.h */; };
+		4CF705961A17D8BA00C187A2 /* HCIsDictionaryContainingKey.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333E412026940E16FEC9C0 /* HCIsDictionaryContainingKey.h */; };
+		4CF705971A17D8BA00C187A2 /* HCIsDictionaryContainingValue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333A5C2975038FF06BDCBA /* HCIsDictionaryContainingValue.h */; };
+		4CF705981A17D8BA00C187A2 /* HCIsEmptyCollection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3338EDDD9B8C82083DD7FB /* HCIsEmptyCollection.h */; };
+		4CF705991A17D8BA00C187A2 /* HCIsIn.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3336DDA8D0B1E91E937FD4 /* HCIsIn.h */; };
+		4CF7059A1A17D8BA00C187A2 /* HCDescribedAs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3331D467F6B759BE9C3246 /* HCDescribedAs.h */; };
+		4CF7059B1A17D8BA00C187A2 /* HCIs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB33384895217507C28D0896 /* HCIs.h */; };
+		4CF7059C1A17D8BA00C187A2 /* HCAllOf.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333255C8855929B9264684 /* HCAllOf.h */; };
+		4CF7059D1A17D8BA00C187A2 /* HCAnyOf.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333034CD6A38647E176A9A /* HCAnyOf.h */; };
+		4CF7059E1A17D8BA00C187A2 /* HCIsAnything.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333EC183D2675A9DF05F67 /* HCIsAnything.h */; };
+		4CF7059F1A17D8BA00C187A2 /* HCIsNot.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB33317270E4A854112BCCEA /* HCIsNot.h */; };
+		4CF705A01A17D8BA00C187A2 /* HCIsCloseTo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB33346362D58A13AA1BA54B /* HCIsCloseTo.h */; };
+		4CF705A11A17D8BA00C187A2 /* HCIsEqualToNumber.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3330701E28789385EAB1C9 /* HCIsEqualToNumber.h */; };
+		4CF705A21A17D8BA00C187A2 /* HCNumberAssert.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333EEBE8C48A68933572E9 /* HCNumberAssert.h */; };
+		4CF705A31A17D8BA00C187A2 /* HCOrderingComparison.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3337CE41E8621958EAE8BF /* HCOrderingComparison.h */; };
+		4CF705A41A17D8BA00C187A2 /* HCClassMatcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB33365155F84099730C9B56 /* HCClassMatcher.h */; };
+		4CF705A51A17D8BA00C187A2 /* HCConformsToProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3334410C93469CF325AA1D /* HCConformsToProtocol.h */; };
+		4CF705A61A17D8BA00C187A2 /* HCHasDescription.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB33387896CF4C830AAE4633 /* HCHasDescription.h */; };
+		4CF705A71A17D8BA00C187A2 /* HCHasProperty.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333B2A6FFEC019E0678999 /* HCHasProperty.h */; };
+		4CF705A81A17D8BA00C187A2 /* HCIsEqual.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333503A24A236A19B8A468 /* HCIsEqual.h */; };
+		4CF705A91A17D8BA00C187A2 /* HCIsInstanceOf.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB33386A5E683DD0DC1AACE2 /* HCIsInstanceOf.h */; };
+		4CF705AA1A17D8BA00C187A2 /* HCIsNil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB33359133039118AE88E2A8 /* HCIsNil.h */; };
+		4CF705AB1A17D8BA00C187A2 /* HCIsSame.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333C93865B64F27B2639FE /* HCIsSame.h */; };
+		4CF705AC1A17D8BA00C187A2 /* HCIsTypeOf.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB33334CF68184328CD67F30 /* HCIsTypeOf.h */; };
+		4CF705AD1A17D8BA00C187A2 /* HCIsEqualIgnoringCase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB33371136854FB7CAF2A5F7 /* HCIsEqualIgnoringCase.h */; };
+		4CF705AE1A17D8BA00C187A2 /* HCIsEqualIgnoringWhiteSpace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB33338462C2743FF78AA51B /* HCIsEqualIgnoringWhiteSpace.h */; };
+		4CF705AF1A17D8BA00C187A2 /* HCStringContains.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB333144F9FA03AC04F8027D /* HCStringContains.h */; };
+		4CF705B01A17D8BA00C187A2 /* HCStringContainsInOrder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3331C74ACFA7AB0675A7FE /* HCStringContainsInOrder.h */; };
+		4CF705B11A17D8BA00C187A2 /* HCStringEndsWith.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3333AF4B760A982CF9F9E3 /* HCStringEndsWith.h */; };
+		4CF705B21A17D8BA00C187A2 /* HCStringStartsWith.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3336FA0B545673BD3630E2 /* HCStringStartsWith.h */; };
+		4CF705B31A17D92B00C187A2 /* HCSubstringMatcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB3338B60F3A83AE527E91A7 /* HCSubstringMatcher.h */; };
 		5F2773481436FAA600B9683A /* ConformsToProtocolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2773441436F81000B9683A /* ConformsToProtocolTest.m */; };
 		5F2773491436FAA700B9683A /* ConformsToProtocolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2773441436F81000B9683A /* ConformsToProtocolTest.m */; };
 		77C7B8771429361200DE60CC /* HasPropertyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C7B8761429361200DE60CC /* HasPropertyTest.m */; };
@@ -118,7 +170,6 @@
 		BB33301A68F74D210C803FEA /* HCIsNil.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3335CC804D0A774E5F1041 /* HCIsNil.m */; };
 		BB333020F5ED4E3979BA1714 /* NSInvocation+OCHamcrest.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3339BE4C0ECEAB7169772A /* NSInvocation+OCHamcrest.h */; };
 		BB33302772CACC61A1B4DB74 /* HCTestFailureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333528C8E2ED8489ACB161 /* HCTestFailureHandler.m */; };
-		BB333031608DFFD2E76CD745 /* HCDoubleReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333F67A18EA568D7683A58 /* HCDoubleReturnGetter.h */; };
 		BB33303F6D1004392A6EF76A /* IsTypeOfTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33373DA43C990FB5DA0D35 /* IsTypeOfTest.m */; };
 		BB3330504048A30E7C190A19 /* HCReturnTypeHandlerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333BD87164C606AE0BE027 /* HCReturnTypeHandlerChain.m */; };
 		BB3330581DF04CB5115BCD11 /* IsTypeOfTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33373DA43C990FB5DA0D35 /* IsTypeOfTest.m */; };
@@ -139,7 +190,6 @@
 		BB33315FDFFBAC0E1DB10869 /* HCStringDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333D43717AD7243D63A4AB /* HCStringDescription.m */; };
 		BB33317BFCB5DC5993AA5C91 /* HCRequireNonNilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333C88565D58DE2AAAAD15 /* HCRequireNonNilObject.m */; };
 		BB333181C1BD36B166BDCABB /* HCIsDictionaryContainingKey.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333393BDEDD21E2CB1A2FF /* HCIsDictionaryContainingKey.m */; };
-		BB33318EE99C688C6076DEBE /* HCUnsignedLongLongReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB33312F8485C256B14867AF /* HCUnsignedLongLongReturnGetter.h */; };
 		BB3331A2CC8B05A72A0E3E8B /* HCStringDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333215A6C1406E57ED34C4 /* HCStringDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB3331A77D7C99A487A89434 /* HCBoolReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3331B99B691F7BFEF48591 /* HCBoolReturnGetter.m */; };
 		BB3331D1B77DB4D834A7FDF5 /* HCOrderingComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3336E4FAD686F2CFFF91B0 /* HCOrderingComparison.m */; };
@@ -148,7 +198,6 @@
 		BB3332098FC93350263E39FF /* HCIsEmptyCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33328F1CBC78AC3D9B6E78 /* HCIsEmptyCollection.m */; };
 		BB333210C6DF7BB6238B7747 /* HCIsEqualIgnoringCase.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333A9273EFADF46D908BC4 /* HCIsEqualIgnoringCase.m */; };
 		BB33321509F1659FB29AD59E /* HCIntReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3339614DAE31258BA73352 /* HCIntReturnGetter.m */; };
-		BB3332191B1A602F69B8CC77 /* HCLongReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333C3F40A01E4269FA22BE /* HCLongReturnGetter.h */; };
 		BB33322D2EF1C40E940F38B2 /* HCHasCount.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333E594CE94324024C2E19 /* HCHasCount.m */; };
 		BB33323968557EF5235B3AFE /* HCIsInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333830B0D43E7B79BB537C /* HCIsInstanceOf.m */; };
 		BB3332440D6C92F1E9650F9A /* HCUnsignedLongLongReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB33312F8485C256B14867AF /* HCUnsignedLongLongReturnGetter.h */; };
@@ -164,7 +213,6 @@
 		BB3332D67329789E3971E2C3 /* HCIsCollectionContainingInAnyOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333FE413C7E8FA9C811BF1 /* HCIsCollectionContainingInAnyOrder.m */; };
 		BB3332D945BB26BEF3E37662 /* HCCollect.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3333FD5A8D6F4A718D5D98 /* HCCollect.m */; };
 		BB3332DB2D2CA8A11AF95DA7 /* HCDescribedAs.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3334C2039E9686ABB73AE2 /* HCDescribedAs.m */; };
-		BB3332EA9B7B56B9364B4023 /* HCUnsignedCharReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333BE1D8EFF4596D019A40 /* HCUnsignedCharReturnGetter.h */; };
 		BB333328EA1EFCED9C811321 /* HCFloatReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333C975A48CD4BC2EA4ED3 /* HCFloatReturnGetter.m */; };
 		BB3333346B22FC64994ED11E /* HCTestFailureHandlerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3337085D9BEFA6D52E7EB0 /* HCTestFailureHandlerChain.m */; };
 		BB33333C0F1EED12D79C5845 /* HCConformsToProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3334410C93469CF325AA1D /* HCConformsToProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -185,18 +233,15 @@
 		BB3333FFD04D52C9DC48644E /* HCStringEndsWith.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3333AF4B760A982CF9F9E3 /* HCStringEndsWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB3334311D89D9395F45A48D /* HCHasProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33343C9B176C5DE07DE003 /* HCHasProperty.m */; };
 		BB33343CA2ADA0E7E367E8F9 /* HCAnyOf.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333BF1C94AD91D6F5F5A95 /* HCAnyOf.m */; };
-		BB3334425297552B3C06F861 /* HCObjectReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333FACCFA7D57857673665 /* HCObjectReturnGetter.h */; };
 		BB333451E989F24386136004 /* HCXCTestFailureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333ABD683BCE8C8E9028C5 /* HCXCTestFailureHandler.m */; };
 		BB33345773AB590845EB68D6 /* HCStringStartsWith.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333A7430335F388E6DCF71 /* HCStringStartsWith.m */; };
 		BB3334612BBBB6871530AB79 /* HCIsSame.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333594FB0AC2DAC3B73077 /* HCIsSame.m */; };
 		BB33346AFA507C00FA481E8D /* HCIsCollectionContainingInOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333986B013CA09B71D376B /* HCIsCollectionContainingInOrder.m */; };
-		BB333494B740EF5FC786BB56 /* HCIntReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333725B2814AE9CF044B5B /* HCIntReturnGetter.h */; };
 		BB3334B153329F550E1EFEBD /* HCIsNil.h in Headers */ = {isa = PBXBuildFile; fileRef = BB33359133039118AE88E2A8 /* HCIsNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB3334B9AE78134252D2CBC7 /* HCSenTestFailureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333F6051CD0B739527337A /* HCSenTestFailureHandler.m */; };
 		BB3334CE1D4AE1517BD55CC5 /* HCUnsignedShortReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333A5C3A9A42E4521010F1 /* HCUnsignedShortReturnGetter.m */; };
 		BB3334E55A7868E28215B693 /* OCHamcrest.h in Headers */ = {isa = PBXBuildFile; fileRef = BB33356A6185FA4F1B6E240F /* OCHamcrest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB3335190594259F5D74CAE1 /* HCIsTypeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33322097042E108614BDAD /* HCIsTypeOf.m */; };
-		BB333523DC58D4FD4797B9C7 /* HCLongLongReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3332508DE228EEA28B7324 /* HCLongLongReturnGetter.h */; };
 		BB33356A7CF5DC030AAE9CCB /* HCIsDictionaryContaining.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333049BE335209B4207B2A /* HCIsDictionaryContaining.m */; };
 		BB33357C5F1F3BC687DDF54C /* HCStringEndsWith.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3335974ADA5C5408FE0F69 /* HCStringEndsWith.m */; };
 		BB333597D5BACF80DB73F49C /* HCIsCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3331EECFE91DCA05C34EFD /* HCIsCloseTo.m */; };
@@ -207,11 +252,9 @@
 		BB3335EAC1E9E47F87D50EDF /* HCReturnValueGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3331AAA2AB993E60458B6B /* HCReturnValueGetter.m */; };
 		BB3335FB367CC6AD40BF6BA7 /* HCDoubleReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33303898210A59268030C8 /* HCDoubleReturnGetter.m */; };
 		BB3336121208AAC5B1DDE8E9 /* HCUnsignedIntReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3331B51251AD3B252636B5 /* HCUnsignedIntReturnGetter.h */; };
-		BB333625D9CC6652DA94FF09 /* HCUnsignedLongReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3338DE3E5C649EB399B649 /* HCUnsignedLongReturnGetter.h */; };
 		BB33362FA587A9B15E5C0D9B /* HCShortReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33363375E9DE829A8AD41D /* HCShortReturnGetter.m */; };
 		BB333637DDB74BF66C729C62 /* HCIsNot.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33347EC840056B268877BF /* HCIsNot.m */; };
 		BB333643284129107CAD7AB8 /* HCIsDictionaryContainingKey.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333E412026940E16FEC9C0 /* HCIsDictionaryContainingKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB33365B91A88641580F886E /* HCCharReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333C5BD261A2F9861F78A4 /* HCCharReturnGetter.h */; };
 		BB33366E651777BD9B2A98FD /* HCIsNot.h in Headers */ = {isa = PBXBuildFile; fileRef = BB33317270E4A854112BCCEA /* HCIsNot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB33367DD8C7A4D5F5F96E81 /* HCIsCollectionContainingInOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = BB33312A13BF3686BE841AD7 /* HCIsCollectionContainingInOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB33369C21D2B44C72195326 /* HCTestFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333F6535F43C37CBF517FA /* HCTestFailure.m */; };
@@ -236,7 +279,6 @@
 		BB3337DBEBED3443E8DB7A52 /* HCFloatReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333C975A48CD4BC2EA4ED3 /* HCFloatReturnGetter.m */; };
 		BB3337E931781280D48FB372 /* HCXCTestFailureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333ABD683BCE8C8E9028C5 /* HCXCTestFailureHandler.m */; };
 		BB3337F52BA7EAA5CFCAE142 /* HCIsEmptyCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33328F1CBC78AC3D9B6E78 /* HCIsEmptyCollection.m */; };
-		BB3338179D48057215091538 /* HCReturnValueGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333CC6471D7E5CB41558EF /* HCReturnValueGetter.h */; };
 		BB3338188B4D09D845A55E00 /* HCAssertThat.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333792C123FE94F1A3D447 /* HCAssertThat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB333839A36AEC819CDABEBF /* HCNumberAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333EEBE8C48A68933572E9 /* HCNumberAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB333842914F0FF2E8F70FAA /* HCIsEqualIgnoringCase.h in Headers */ = {isa = PBXBuildFile; fileRef = BB33371136854FB7CAF2A5F7 /* HCIsEqualIgnoringCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -253,7 +295,6 @@
 		BB33395D7C71ECDB178C10F9 /* HCMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3334F31A5AB57A69174ECB /* HCMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB333987DAE91CFE7D31B8B4 /* HCIsSame.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333C93865B64F27B2639FE /* HCIsSame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB333995C1E6476B0C239FB9 /* HCIsNil.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3335CC804D0A774E5F1041 /* HCIsNil.m */; };
-		BB3339A4AEEDCDF3C4E96491 /* HCBoolReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333EDC6C01648EEBC00D5E /* HCBoolReturnGetter.h */; };
 		BB3339A5133E437AFDDE7B15 /* HCIsDictionaryContainingValue.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3339100D7159DBF2387893 /* HCIsDictionaryContainingValue.m */; };
 		BB3339BE48FB5782E8F9A9F5 /* HCClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BB33365155F84099730C9B56 /* HCClassMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB3339C714B5E796538B65F1 /* NSInvocation+OCHamcrest.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33309F9D72ED2CF53532A8 /* NSInvocation+OCHamcrest.m */; };
@@ -265,7 +306,6 @@
 		BB3339F396185713397718B5 /* HCIsCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = BB33346362D58A13AA1BA54B /* HCIsCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB3339F4D9293AA86914FB66 /* HCIsDictionaryContainingEntries.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3331619B45E4E82B0FE72A /* HCIsDictionaryContainingEntries.m */; };
 		BB333A0391F4B076785DEBA9 /* HCIsAnything.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333AF2F081FE96420F97C0 /* HCIsAnything.m */; };
-		BB333A10646B1A68ACCDC472 /* HCUnsignedShortReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333A258B9C1CDFB1B184C3 /* HCUnsignedShortReturnGetter.h */; };
 		BB333A11937F03ABF822AFA7 /* HCDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333D2D401EA09BE78BF7E9 /* HCDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB333A358C42850FD4C55B3D /* HCBaseDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333785CDF67F8F0284B9CA /* HCBaseDescription.m */; };
 		BB333A3F01C18400B5A131C6 /* HCIsCollectionContaining.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3338AB92DDE4ACF56D7C1B /* HCIsCollectionContaining.m */; };
@@ -280,12 +320,10 @@
 		BB333AFA559C22D92650E91C /* HCIsEqualIgnoringWhiteSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33377384F2BF4EA9694DA7 /* HCIsEqualIgnoringWhiteSpace.m */; };
 		BB333B08E01B2E88828DA51C /* HCAnyOf.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333034CD6A38647E176A9A /* HCAnyOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB333B4AB9E7656A98D0D172 /* HCUnsignedLongLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33347A9E4365F763632850 /* HCUnsignedLongLongReturnGetter.m */; };
-		BB333B4B561F53C31972B9D9 /* HCFloatReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333FF31E6FD6CB3A0DC45E /* HCFloatReturnGetter.h */; };
 		BB333B9914086A169E24347E /* HCIsEqualToNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3330701E28789385EAB1C9 /* HCIsEqualToNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB333BA6882190C2BDCABECC /* HCAllOf.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333255C8855929B9264684 /* HCAllOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB333BBD9153A5B7C1DD0F86 /* HCHasCount.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333E594CE94324024C2E19 /* HCHasCount.m */; };
 		BB333BCE07B55ED523B267F7 /* HCRequireNonNilObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3331127524965C9BCAD83A /* HCRequireNonNilObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB333BE50C075D306EDA2E98 /* HCReturnTypeHandlerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = BB333191F9604EA23746459E /* HCReturnTypeHandlerChain.h */; };
 		BB333BE5AC86690747041C24 /* HCWrapInMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3335EC3CC47489B4C5395E /* HCWrapInMatcher.m */; };
 		BB333BF2FCAE2C05C337CE46 /* HCIsCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3331EECFE91DCA05C34EFD /* HCIsCloseTo.m */; };
 		BB333C23AD2D7D8BF49032C1 /* HCOrderingComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3336E4FAD686F2CFFF91B0 /* HCOrderingComparison.m */; };
@@ -306,7 +344,6 @@
 		BB333D6CD37B858BD8F989F1 /* HCClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333C70DFAD4A867B769381 /* HCClassMatcher.m */; };
 		BB333D6DC563CDDEDF3B6DC9 /* HCIsDictionaryContainingKey.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333393BDEDD21E2CB1A2FF /* HCIsDictionaryContainingKey.m */; };
 		BB333D81687E3E6481265818 /* HCIsTypeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33322097042E108614BDAD /* HCIsTypeOf.m */; };
-		BB333D83E68045BBEA3B3796 /* HCShortReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3335A8FE1E47B0F4407027 /* HCShortReturnGetter.h */; };
 		BB333D94082F074BB61E233C /* HCBaseDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333785CDF67F8F0284B9CA /* HCBaseDescription.m */; };
 		BB333DB953FACB91AFC1A5C2 /* HCIsCollectionContaining.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3338AB92DDE4ACF56D7C1B /* HCIsCollectionContaining.m */; };
 		BB333DD97E87592CF49128AD /* HCSubstringMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3338B60F3A83AE527E91A7 /* HCSubstringMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -333,7 +370,6 @@
 		BB333F7FB7BA3AF26A162752 /* HCStringContainsInOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3339B2CAF2C82161ED14F8 /* HCStringContainsInOrder.m */; };
 		BB333F8CC565D8068C47B3FE /* HCDoubleReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33303898210A59268030C8 /* HCDoubleReturnGetter.m */; };
 		BB333F9085EBAAC25CDC41EA /* HCTestFailureHandlerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3336D2152CF1F88C8FF743 /* HCTestFailureHandlerChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB333F90C371ADB4443F7CB0 /* HCUnsignedIntReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3331B51251AD3B252636B5 /* HCUnsignedIntReturnGetter.h */; };
 		BB333FC3961C09A902683A7F /* HCSenTestFailureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333F6051CD0B739527337A /* HCSenTestFailureHandler.m */; };
 		BB333FD5A85510AE5AA9B519 /* HCLongLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33330C459CF68E13DDD1D6 /* HCLongLongReturnGetter.m */; };
 		BB333FE2E6441F4ADFE460AC /* HCIsIn.m in Sources */ = {isa = PBXBuildFile; fileRef = BB333522A78D6A7D1A8414B3 /* HCIsIn.m */; };
@@ -359,6 +395,70 @@
 			remoteInfo = OCHamcrest;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CF7057F1A17D83A00C187A2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include/OCHamcrest;
+			dstSubfolderSpec = 16;
+			files = (
+				4CF705B31A17D92B00C187A2 /* HCSubstringMatcher.h in CopyFiles */,
+				4CF705801A17D8BA00C187A2 /* OCHamcrest.h in CopyFiles */,
+				4CF705811A17D8BA00C187A2 /* HCAssertThat.h in CopyFiles */,
+				4CF705821A17D8BA00C187A2 /* HCBaseDescription.h in CopyFiles */,
+				4CF705831A17D8BA00C187A2 /* HCBaseMatcher.h in CopyFiles */,
+				4CF705841A17D8BA00C187A2 /* HCDescription.h in CopyFiles */,
+				4CF705851A17D8BA00C187A2 /* HCMatcher.h in CopyFiles */,
+				4CF705861A17D8BA00C187A2 /* HCSelfDescribing.h in CopyFiles */,
+				4CF705871A17D8BA00C187A2 /* HCStringDescription.h in CopyFiles */,
+				4CF705881A17D8BA00C187A2 /* HCTestFailure.h in CopyFiles */,
+				4CF705891A17D8BA00C187A2 /* HCTestFailureHandler.h in CopyFiles */,
+				4CF7058A1A17D8BA00C187A2 /* HCTestFailureHandlerChain.h in CopyFiles */,
+				4CF7058B1A17D8BA00C187A2 /* HCCollect.h in CopyFiles */,
+				4CF7058C1A17D8BA00C187A2 /* HCInvocationMatcher.h in CopyFiles */,
+				4CF7058D1A17D8BA00C187A2 /* HCRequireNonNilObject.h in CopyFiles */,
+				4CF7058E1A17D8BA00C187A2 /* HCWrapInMatcher.h in CopyFiles */,
+				4CF7058F1A17D8BA00C187A2 /* HCHasCount.h in CopyFiles */,
+				4CF705901A17D8BA00C187A2 /* HCIsCollectionContaining.h in CopyFiles */,
+				4CF705911A17D8BA00C187A2 /* HCIsCollectionContainingInAnyOrder.h in CopyFiles */,
+				4CF705921A17D8BA00C187A2 /* HCIsCollectionContainingInOrder.h in CopyFiles */,
+				4CF705931A17D8BA00C187A2 /* HCIsCollectionOnlyContaining.h in CopyFiles */,
+				4CF705941A17D8BA00C187A2 /* HCIsDictionaryContaining.h in CopyFiles */,
+				4CF705951A17D8BA00C187A2 /* HCIsDictionaryContainingEntries.h in CopyFiles */,
+				4CF705961A17D8BA00C187A2 /* HCIsDictionaryContainingKey.h in CopyFiles */,
+				4CF705971A17D8BA00C187A2 /* HCIsDictionaryContainingValue.h in CopyFiles */,
+				4CF705981A17D8BA00C187A2 /* HCIsEmptyCollection.h in CopyFiles */,
+				4CF705991A17D8BA00C187A2 /* HCIsIn.h in CopyFiles */,
+				4CF7059A1A17D8BA00C187A2 /* HCDescribedAs.h in CopyFiles */,
+				4CF7059B1A17D8BA00C187A2 /* HCIs.h in CopyFiles */,
+				4CF7059C1A17D8BA00C187A2 /* HCAllOf.h in CopyFiles */,
+				4CF7059D1A17D8BA00C187A2 /* HCAnyOf.h in CopyFiles */,
+				4CF7059E1A17D8BA00C187A2 /* HCIsAnything.h in CopyFiles */,
+				4CF7059F1A17D8BA00C187A2 /* HCIsNot.h in CopyFiles */,
+				4CF705A01A17D8BA00C187A2 /* HCIsCloseTo.h in CopyFiles */,
+				4CF705A11A17D8BA00C187A2 /* HCIsEqualToNumber.h in CopyFiles */,
+				4CF705A21A17D8BA00C187A2 /* HCNumberAssert.h in CopyFiles */,
+				4CF705A31A17D8BA00C187A2 /* HCOrderingComparison.h in CopyFiles */,
+				4CF705A41A17D8BA00C187A2 /* HCClassMatcher.h in CopyFiles */,
+				4CF705A51A17D8BA00C187A2 /* HCConformsToProtocol.h in CopyFiles */,
+				4CF705A61A17D8BA00C187A2 /* HCHasDescription.h in CopyFiles */,
+				4CF705A71A17D8BA00C187A2 /* HCHasProperty.h in CopyFiles */,
+				4CF705A81A17D8BA00C187A2 /* HCIsEqual.h in CopyFiles */,
+				4CF705A91A17D8BA00C187A2 /* HCIsInstanceOf.h in CopyFiles */,
+				4CF705AA1A17D8BA00C187A2 /* HCIsNil.h in CopyFiles */,
+				4CF705AB1A17D8BA00C187A2 /* HCIsSame.h in CopyFiles */,
+				4CF705AC1A17D8BA00C187A2 /* HCIsTypeOf.h in CopyFiles */,
+				4CF705AD1A17D8BA00C187A2 /* HCIsEqualIgnoringCase.h in CopyFiles */,
+				4CF705AE1A17D8BA00C187A2 /* HCIsEqualIgnoringWhiteSpace.h in CopyFiles */,
+				4CF705AF1A17D8BA00C187A2 /* HCStringContains.h in CopyFiles */,
+				4CF705B01A17D8BA00C187A2 /* HCStringContainsInOrder.h in CopyFiles */,
+				4CF705B11A17D8BA00C187A2 /* HCStringEndsWith.h in CopyFiles */,
+				4CF705B21A17D8BA00C187A2 /* HCStringStartsWith.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0817B5CC147EC45200C5401D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -990,29 +1090,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		081BEE601345979F003F846A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB3339A4AEEDCDF3C4E96491 /* HCBoolReturnGetter.h in Headers */,
-				BB33365B91A88641580F886E /* HCCharReturnGetter.h in Headers */,
-				BB333031608DFFD2E76CD745 /* HCDoubleReturnGetter.h in Headers */,
-				BB333B4B561F53C31972B9D9 /* HCFloatReturnGetter.h in Headers */,
-				BB333494B740EF5FC786BB56 /* HCIntReturnGetter.h in Headers */,
-				BB333523DC58D4FD4797B9C7 /* HCLongLongReturnGetter.h in Headers */,
-				BB3332191B1A602F69B8CC77 /* HCLongReturnGetter.h in Headers */,
-				BB3334425297552B3C06F861 /* HCObjectReturnGetter.h in Headers */,
-				BB3338179D48057215091538 /* HCReturnValueGetter.h in Headers */,
-				BB333BE50C075D306EDA2E98 /* HCReturnTypeHandlerChain.h in Headers */,
-				BB333D83E68045BBEA3B3796 /* HCShortReturnGetter.h in Headers */,
-				BB3332EA9B7B56B9364B4023 /* HCUnsignedCharReturnGetter.h in Headers */,
-				BB333F90C371ADB4443F7CB0 /* HCUnsignedIntReturnGetter.h in Headers */,
-				BB33318EE99C688C6076DEBE /* HCUnsignedLongLongReturnGetter.h in Headers */,
-				BB333625D9CC6652DA94FF09 /* HCUnsignedLongReturnGetter.h in Headers */,
-				BB333A10646B1A68ACCDC472 /* HCUnsignedShortReturnGetter.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		087601DF13440806001B439B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1101,7 +1178,7 @@
 			buildPhases = (
 				081BEE5E1345979F003F846A /* Sources */,
 				081BEE5F1345979F003F846A /* Frameworks */,
-				081BEE601345979F003F846A /* Headers */,
+				4CF7057F1A17D83A00C187A2 /* CopyFiles */,
 				08627FF81465CE1A00F80D7D /* ShellScript */,
 			);
 			buildRules = (
